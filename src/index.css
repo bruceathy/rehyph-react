@@ -1,0 +1,223 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00587d;
+  background-image: url("./assets/imgs/hedgehog-dilema.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  overscroll-behavior: none;
+  color: #e1e1e1;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 a:hover {
+  text-shadow: 0 0 20px #fff;
+  opacity: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+nav h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-shadow: 0 0 20px #fff;
+  opacity: 1;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #000000bc;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.bg {
+  background-color: #000000bc;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.logo {
+  margin-top: 15rem;
+  font-size: 20rem;
+  line-height: 15rem;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.logo-mini {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.hero ul a {
+  margin: 0 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.hero a:hover {
+  text-shadow: 0 0 20px #fff;
+  opacity: 1;
+}
+
+.vl {
+  border-left: 2px solid #e1e1e1;
+  height: 40px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  width: 100vw;
+  padding: 0.3rem 0;
+  margin-top: 1rem;
+}
+
+footer p {
+  opacity: 0.6;
+}
+
+footer a {
+  color: inherit;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0 8rem 0;
+}
+
+.social-media a {
+  margin: 0 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-media i {
+  color: #fff;
+  font-size: 3.7rem;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.album:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.album-cover {
+  width: 500px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  body {
+    overscroll-behavior: auto;
+  }
+
+  .social-media {
+    margin-bottom: 17rem;
+  }
+
+  .logo {
+    font-size: 5.5rem;
+    margin-top: 12rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    font-size: 1.4rem;
+  }
+
+  .album {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.9rem;
+  }
+
+  .album-cover {
+    width: 300px;
+  }
+
+  .tracklist {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
