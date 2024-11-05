@@ -73,7 +73,7 @@ nav ul li a:hover {
   text-align: center;
   background-color: #000000bc;
   height: 100vh;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .bg {
@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 .logo {
   margin-top: 15rem;
-  font-size: 20rem;
+  font-size: 18rem;
   line-height: 15rem;
   font-weight: 800;
   color: #fff;
@@ -106,12 +106,12 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
 .hero ul a {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
   cursor: pointer;
   text-decoration: none;
   color: #ffffff;
@@ -265,5 +265,19 @@ footer a {
 
   .hero ul {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .logo {
+    font-size: 11rem;
+    margin-top: 12rem;
+    line-height: 9rem;
+  }
+  .hero ul {
+    font-size: 2rem;
+  }
+  .hero ul a {
+    margin: 0 0.5rem;
   }
 }
