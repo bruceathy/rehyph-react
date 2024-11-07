@@ -1,8 +1,10 @@
 import "./App.css";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <>
+      <Navbar />
       <div className="hero">
         <h1 className="logo">bhaka</h1>
         <ul>
