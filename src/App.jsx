@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import HomeNav from "./components/HomeNav";
 import HomeSocials from "./components/HomeSocials";
 

@@ -2,10 +2,10 @@ import HomeListItem from "./HomeListItem";
 export default function HomeNav() {
   return (
     <ul>
-      <HomeListItem href="html/oneshots.html" text="One-Shots" />
-      <HomeListItem href="html/music.html" text="Music" />
-      <HomeListItem href="html/merch.html" text="Merch" />
-      <HomeListItem href="https://www.patreon.com/" text="Patreon" />
+      <HomeListItem link="html/oneshots.html" text="One-Shots" />
+      <HomeListItem link="html/music.html" text="Music" />
+      <HomeListItem link="html/merch.html" text="Merch" />
+      <HomeListItem link="https://www.patreon.com/" text="Patreon" />
     </ul>
   );
 }

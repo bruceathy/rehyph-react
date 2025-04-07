@@ -1,7 +1,8 @@
-export default function HomeListItem({ href, text }) {
+/* eslint-disable react/prop-types */
+export default function HomeListItem({ link, text }) {
   return (
     <li>
-      <a href={href}>{text}</a>
+      <a href={link}>{text}</a>
     </li>
   );
 }
